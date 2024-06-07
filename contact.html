@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Contact Form</h1>
+    </header>
+    <section>
+    <form name="Schedule Appointment" method="POST" data-netlify="true">
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br>
+
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+
+        <br>
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required>
+        <br>
+        
+        <br>
+        <label for="date">Select a Date:</label>
+        <select id="date" name="date" required>
+            <option value="monday">Monday</option>
+            <option value="tuesday">Tuesday</option>
+            <option value="wednesday">Wednesday</option>
+            <option value="thursday">Thursday</option>
+            <option value="friday">Friday</option>
+        </select>
+        <br>
+      
+        <br>
+        <label for="time">Select a Time:</label>
+        <select id="time" name="time" required>
+            <option value="8-9">8:00 AM - 9:00 AM</option>
+            <option value="9-10">9:00 AM - 10:00 AM</option>
+            <option value="17-18">5:00 PM - 6:00 PM</option>
+            <option value="19-20">7:00 PM - 8:00 PM</option>
+        </select>
+        <br>
+        
+        <br>
+        <label for="interests">Interests:</label>
+
+        <input type="checkbox" id="freelance" name="interests[]" value="freelance">
+        <label for="freelance">Freelance</label>
+        
+        <input type="checkbox" id="networking" name="interests[]" value="networking">
+        <label for="networking">Networking</label>
+        <br>
+        
+        <br>
+        <label for="message">Additional Message:</label>
+        <br>
+
+        <textarea id="message" name="message"></textarea>
+        <br>
+        
+        <br>
+        <input type="submit" value="Submit">
+            
+        </select><br>
+    </form>
+    </section>
+</body>
+</html>
