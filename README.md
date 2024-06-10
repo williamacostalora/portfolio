@@ -7,6 +7,7 @@ Welcome to my portfolio! I am William Acosta, a rising sophomore at Macalester C
 ## Note
 
 This portfolio is currently under development. Please check back soon for updates and new content!
+Here is the link to my portfolio [https://williamacostalora.netlify.app/]
 
 ---
 
